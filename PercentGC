@@ -1,3 +1,6 @@
+# What is the percent GC content of a DNA molecule?
+# Problem: the string of sequences doesn't wrap around
+#Problem: not printing in a nice sentence format.
 pBR322 = ('TTCTCATGTTTGACAGCTTATCATCGATAAGCTTTAATGCGGTAGTTTATCACAGTTAAATTGCTAACGCAGTCAGGCAC')
 
 Gcount = 0

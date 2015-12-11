@@ -1,0 +1,29 @@
+pBR322 = ('TTCTCATGTTTGACAGCTTATCATCGATAAGCTTTAATGCGGTAGTTTATCACAGTTAAATTGCTAACGCAGTCAGGCAC')
+
+Gcount = 0
+for char in pBR322:
+    if char =='G':
+        Gcount = Gcount+1
+print('G equals')
+print(Gcount)
+Acount = 0
+for char in pBR322:
+    if char =='A':
+        Acount = Acount+1
+print('A equals')
+print(Acount)
+Ccount = 0
+for char in pBR322:
+    if char =='C':
+        Ccount = Ccount+1
+print('C equals')
+print(Ccount)
+Tcount = 0
+for char in pBR322:
+    if char =='T':
+        Tcount = Tcount+1
+print('T equals')
+print(Tcount)
+
+PercentGC = ((Gcount+Ccount)/(Acount+Tcount+Ccount+Gcount))*100
+print(PercentGC)
